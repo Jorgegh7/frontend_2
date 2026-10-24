@@ -1,0 +1,54 @@
+:root {
+    --verde-oscuro: #066532;
+    --verde: #19471c;
+    --verde-lima: #6a9f25;
+    --rojo: #e02424;
+    --naranja: #f2a10d;
+    --azul: #0a7bc4;
+}
+
+.navbar-san-esteban {
+    background-color: var(--verde-lima);
+}
+
+.navbar-san-esteban .navbar-brand,
+.navbar-san-esteban .navbar-brand:hover,
+.navbar-san-esteban .navbar-brand:focus,
+.navbar-san-esteban .navbar-brand.active {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.navbar-san-esteban .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.navbar-san-esteban .nav-link.active {
+    font-weight: 500;
+    color: var(--verde-oscuro) !important;
+}
+
+.hero-quienes {
+    min-height: 400px;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url('./assets/sucursal_casa_central.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-san-esteban {
+    background-color: var(--verde-oscuro);
+    color: #ffffff;
+}
+
+.footer-san-esteban a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-san-esteban a:hover {
+    text-decoration: underline;
+}
