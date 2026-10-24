@@ -40,4 +40,4 @@ Luego abre la URL que muestra la terminal (normalmente `http://localhost:5173`).
 
 ## Autor
 
-Jorge, estudiante de Analista Programador Computacional, Duoc UC Online.
+Jorge Gallardo Heck, estudiante de Analista Programador Computacional, Duoc UC Online.
