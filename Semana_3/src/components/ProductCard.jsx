@@ -1,4 +1,5 @@
 import { Link } from 'react-router'
+import { formatearPrecio } from '../util/formatearPrecio.js'
 
 function ProductCard({ producto }) {
     const { id, nombre, marca, descripcion, precio, precioOferta, stock, img } = producto
@@ -15,11 +16,11 @@ function ProductCard({ producto }) {
                 <p className="mb-3 grow">{descripcion}</p>
                 {enOferta ? (
                     <p>
-                        <span className="mr-2 text-gray-500 line-through">${precio}</span>
-                        <span className="font-bold text-rojo">${precioOferta}</span>
+                        <span className="mr-2 text-gray-500 line-through">{formatearPrecio(precio)}</span>
+                        <span className="font-bold text-rojo">{formatearPrecio(precioOferta)}</span>
                     </p>
                 ) : (
-                    <p className="font-bold">${precio}</p>
+                    <p className="font-bold">{formatearPrecio(precio)}</p>
                 )}
                 <p className="text-sm text-gray-500">Stock: {stock}</p>
             </div>

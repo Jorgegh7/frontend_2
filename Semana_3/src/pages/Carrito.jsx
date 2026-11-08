@@ -2,6 +2,7 @@ import { Link, useNavigate } from 'react-router'
 import useProductos from '../hooks/useProductos'
 import NotificacionesModal from '../components/NotificacionesModal'
 import { useState } from 'react'
+import { formatearPrecio } from '../util/formatearPrecio.js'
 
 
 function Carrito() {
@@ -24,7 +25,7 @@ function Carrito() {
     const [aviso, setAviso] = useState('')
 
     const manejarPago = () => {
-        const resumen = `Compraste ${items.length} producto(s) por un total de $${total}.`
+        const resumen = `Compraste ${items.length} producto(s) por un total de ${formatearPrecio(total)}.`
         pagarCarrito()
         setAviso(resumen)
     }
@@ -69,7 +70,7 @@ function Carrito() {
                                 <p className="font-bold">{producto.nombre}</p>
                                 <p className="text-sm text-gray-500">{producto.marca}</p>
                                 <p className="text-sm text-gray-500">
-                                    Precio unitario: ${precioUnitario(producto)}
+                                    Precio unitario: ${formatearPrecio(precioUnitario(producto))}
                                 </p>
                                 <p className="font-bold text-verde-oscuro">
                                     Subtotal: ${precioUnitario(producto) * cantidad}
@@ -101,7 +102,7 @@ function Carrito() {
                 ))}
             </ul>
             <p className="mt-6 text-right text-2xl font-bold text-verde-oscuro">
-                Total: ${total}
+                Total: {formatearPrecio(total)}
             </p>
             <div className="mt-4 text-right">
                 <button

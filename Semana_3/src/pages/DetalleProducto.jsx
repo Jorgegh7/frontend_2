@@ -2,6 +2,7 @@ import { useState } from "react"
 import { Link, useParams } from 'react-router'
 import useProductos from "../hooks/useProductos"
 import NotificacionesModal from '../components/NotificacionesModal'
+import { formatearPrecio } from '../util/formatearPrecio.js'
 
 function DetalleProducto() {
     const { id } = useParams()
@@ -55,11 +56,11 @@ function DetalleProducto() {
 
                     {producto.precioOferta > 0 ? (
                         <p className="mb-2">
-                            <span className="mr-3 text-xl text-gray-500 line-through">${producto.precio}</span>
-                            <span className="text-3xl font-bold text-rojo">${producto.precioOferta}</span>
+                            <span className="mr-3 text-xl text-gray-500 line-through">{formatearPrecio(producto.precio)}</span>
+                            <span className="text-3xl font-bold text-rojo">{formatearPrecio(producto.precioOferta)}</span>
                         </p>
                     ) : (
-                        <p className="mb-2 text-3xl font-bold">${producto.precio}</p>
+                        <p className="mb-2 text-3xl font-bold">{formatearPrecio(producto.precio)}</p>
                     )}
 
                     <p className="text-sm text-gray-500">Stock disponible: {producto.stock}</p>
