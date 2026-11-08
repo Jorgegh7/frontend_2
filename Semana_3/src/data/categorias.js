@@ -1,0 +1,1 @@
+export const CATEGORIAS = ['Abarrotes', 'Aseo', 'Carnes', 'Lácteos', 'Bebidas']

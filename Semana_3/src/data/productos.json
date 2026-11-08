@@ -1,0 +1,178 @@
+[
+  {
+    "id": "f4aa3d64-992c-4e1a-9a31-190b2fc9769d",
+    "nombre": "Arroz grado 2",
+    "marca": "Los Granos",
+    "categoria": "Abarrotes",
+    "descripcion": "Arroz grano largo, bolsa de 1 kg.",
+    "precio": 1590,
+    "precioOferta": 0,
+    "stock": 120,
+    "img": "/productos/arroz.webp"
+  },
+  {
+    "id": "4f96719d-5aa8-4743-b5dc-489ef666ac12",
+    "nombre": "Fideos spaghetti",
+    "marca": "Carozzi",
+    "categoria": "Abarrotes",
+    "descripcion": "Fideos spaghetti n°5, paquete de 400 g.",
+    "precio": 990,
+    "precioOferta": 790,
+    "stock": 200,
+    "img": "/productos/fideos.webp"
+  },
+  {
+    "id": "791439b4-085d-47d6-b608-5ead1687379c",
+    "nombre": "Aceite vegetal",
+    "marca": "Por confirmar",
+    "categoria": "Abarrotes",
+    "descripcion": "Aceite vegetal comestible, botella de 1 litro.",
+    "precio": 2490,
+    "precioOferta": 0,
+    "stock": 85,
+    "img": "/productos/aceite.webp"
+  },
+  {
+    "id": "269925f8-8dc6-4c51-a1a1-da13d5d271f9",
+    "nombre": "Azúcar granulada",
+    "marca": "Iansa",
+    "categoria": "Abarrotes",
+    "descripcion": "Azúcar blanca granulada, bolsa de 900 g.",
+    "precio": 1390,
+    "precioOferta": 1190,
+    "stock": 150,
+    "img": "/productos/azucar.webp"
+  },
+  {
+    "id": "e8b127c6-0819-4957-8b60-dcb62c215c91",
+    "nombre": "Detergente líquido piel sensible",
+    "marca": "Omo",
+    "categoria": "Aseo",
+    "descripcion": "Detergente líquido para ropa, 3 litros.",
+    "precio": 7990,
+    "precioOferta": 6490,
+    "stock": 60,
+    "img": "/productos/detergente.webp"
+  },
+  {
+    "id": "e16650f7-5b73-4326-8d3e-b23c5360074b",
+    "nombre": "Lavalozas limón",
+    "marca": "Quix",
+    "categoria": "Aseo",
+    "descripcion": "Lavalozas concentrado aroma limón, 750 ml.",
+    "precio": 1990,
+    "precioOferta": 0,
+    "stock": 90,
+    "img": "/productos/lavalozas.webp"
+  },
+  {
+    "id": "cf2434d3-0638-4f3e-8a1f-0b6a1e92bac7",
+    "nombre": "Papel higiénico",
+    "marca": "Elite",
+    "categoria": "Aseo",
+    "descripcion": "Papel higiénico doble hoja, pack de 12 rollos.",
+    "precio": 5490,
+    "precioOferta": 0,
+    "stock": 75,
+    "img": "/productos/papel-higienico.webp"
+  },
+  {
+    "id": "85aac31f-5ca2-4fff-bd44-2effd62c2815",
+    "nombre": "Cloro tradicional 2 L",
+    "marca": "Clorinda",
+    "categoria": "Aseo",
+    "descripcion": "Cloro desinfectante tradicional, botella de 2 litros.",
+    "precio": 2200,
+    "precioOferta": 2000,
+    "stock": 110,
+    "img": "/productos/cloro.webp"
+  },
+  {
+    "id": "d27f1a17-7918-451d-a401-f24dca89736a",
+    "nombre": "Posta rosada",
+    "marca": "San Esteban",
+    "categoria": "Carnes",
+    "descripcion": "Corte de vacuno ideal para asar o guisar, envasado al vacío.",
+    "precio": 8990,
+    "precioOferta": 7990,
+    "stock": 25,
+    "img": "/productos/posta-rosada.webp"
+  },
+  {
+    "id": "e04f0cc1-5e7e-4351-9f4b-3badadfefc62",
+    "nombre": "Pechuga de pollo",
+    "marca": "San Esteban",
+    "categoria": "Carnes",
+    "descripcion": "Pechuga de pollo fresca, precio por kilo.",
+    "precio": 5990,
+    "precioOferta": 0,
+    "stock": 40,
+    "img": "/productos/pechuga-pollo.webp"
+  },
+  {
+    "id": "53bde60f-5350-4c33-a6f7-904995a4e990",
+    "nombre": "Carne molida 10% grasa",
+    "marca": "Por confirmar",
+    "categoria": "Carnes",
+    "descripcion": "Carne molida de vacuno, bandeja de 1 kg.",
+    "precio": 6490,
+    "precioOferta": 5490,
+    "stock": 30,
+    "img": "/productos/carne-molida.webp"
+  },
+  {
+    "id": "339ab628-6cf2-4220-ab9b-cc3d712d03cf",
+    "nombre": "Chuleta centro de cerdo",
+    "marca": "Super Cerdo",
+    "categoria": "Carnes",
+    "descripcion": "Chuleta centro de cerdo, bandeja de 550 g.",
+    "precio": 3490,
+    "precioOferta": 0,
+    "stock": 20,
+    "img": "/productos/chuleta.webp"
+  },
+  {
+    "id": "0d1f4c91-1520-4633-883b-beec4d99c757",
+    "nombre": "Leche entera",
+    "marca": "Colún",
+    "categoria": "Lácteos",
+    "descripcion": "Leche entera larga vida, caja de 1 litro.",
+    "precio": 1190,
+    "precioOferta": 0,
+    "stock": 180,
+    "img": "/productos/leche.webp"
+  },
+  {
+    "id": "4c9cc5b6-08d8-439e-b071-e5e01d4bf85e",
+    "nombre": "Yoghurt batido chirimoya",
+    "marca": "Danone",
+    "categoria": "Lácteos",
+    "descripcion": "Yoghurt batido sabor chirimoya, bolsa de 1 kg.",
+    "precio": 1990,
+    "precioOferta": 1690,
+    "stock": 55,
+    "img": "/productos/yoghurt.webp"
+  },
+  {
+    "id": "281e307a-c670-4c61-b13c-748fa4365e85",
+    "nombre": "Queso gauda",
+    "marca": "Soprole",
+    "categoria": "Lácteos",
+    "descripcion": "Queso gauda en trozo.",
+    "precio": 3290,
+    "precioOferta": 0,
+    "stock": 45,
+    "img": "/productos/queso.webp"
+  },
+  {
+    "id": "4cd26ca6-7490-4c80-bb15-de66256796c7",
+    "nombre": "Mantequilla con sal",
+    "marca": "Colún",
+    "categoria": "Lácteos",
+    "descripcion": "Mantequilla con sal, barra de 250 g.",
+    "precio": 2790,
+    "precioOferta": 0,
+    "stock": 65,
+    "img": "/productos/mantequilla.webp"
+  }
+]
